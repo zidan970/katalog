@@ -1,0 +1,154 @@
+body 
+{
+  background-image: url("image/background.jpg");
+  background-size: cover;
+  color: #333;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+}
+
+.header 
+{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  background: black;
+  color: black;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+}
+
+.brand 
+{
+  font-weight: bold;
+}
+
+.header a 
+{
+  color: black;
+  text-decoration: none;
+  float: left;
+}
+
+.navbar 
+{
+  line-height: 50px;
+}
+
+.navbar a 
+{
+  padding: 0px 36px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-weight: normal;
+}
+
+p 
+{
+  color: white;
+  margin: 20px;
+}
+
+.footer 
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+.footer p 
+{
+  margin: auto;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+.navbar a:hover 
+{
+  background-color: rgb(224, 46, 46);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.headline
+{
+    width: 1100px;
+    margin: 35px auto;
+    padding: 20px;
+    overflow: hidden;
+}
+ 
+.list-produk
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    margin: 5px;
+    background-color: white;
+}
+ 
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk img
+{
+    width: 100%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ 
+.tombol
+{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: block;
+    float: left;
+    width: 45%;
+    margin: 4px;
+    text-align: center;
+    color: white;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+}
+ 
+.tombol-detail
+{
+    background-color: rgb(103, 179, 223);
+}
+ 
+.tombol-beli
+{
+    background-color: rgb(99, 92, 94);
+}
